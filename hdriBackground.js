@@ -52,7 +52,7 @@ function createModel() {
 function render() {
     renderer = new THREE.WebGLRenderer({alpha: true, antialias:true});
     renderer.setSize(WIDTH, HEIGHT);
-    renderer.setClearColor(0x004444);
+    renderer.setClearColor(0x000000);
     renderer.render(scene, camera);
     container = document.getElementById('world');
     container.appendChild(renderer.domElement);
