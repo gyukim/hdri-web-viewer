@@ -40,7 +40,7 @@ function createModel() {
     var geometry = new THREE.SphereGeometry( 500, 60, 40 );
 
     var material = new THREE.MeshBasicMaterial( {
-        map: new THREE.TextureLoader().load( 'hdri/RGB.jpg' )
+        map: new THREE.TextureLoader().load( './hdri/RGB.jpg' )
     } );
 
     var mesh = new THREE.Mesh( geometry, material );
